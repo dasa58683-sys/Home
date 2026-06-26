@@ -1,7 +1,7 @@
 const images = [
-    "/photos/hero.jpeg",
-    "/photos/hero.png",
-    "/photos/hero.jpg"
+    "hero.jpeg",
+    "hero.png",
+    "hero.jpg"
 ];
 
 let index = 0;
@@ -23,8 +23,8 @@ setInterval(() => {
 const bannerImage = document.getElementById("bannerImage");
 
 const bannerImages = [
-    "/photos/idependence.jpeg",
-    "/photos/discount.jpeg"
+    "idependence.jpeg",
+    "discount.jpeg"
 ];
 
 let currentImage = 0;
