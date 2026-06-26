@@ -149,7 +149,7 @@ body{
 
 .remove i{
     position: absolute;
-    right: 60px;
+    right: 50px;
     font-size: 20px;
     top: 50%;
     transform: translateY(-50%);
@@ -181,7 +181,7 @@ body{
 
 .hero-slide{
     width: 100%;
-    min-height: 310px;
+    min-height: 190px;
 
     display: flex;
     justify-content: space-between;
@@ -199,6 +199,7 @@ body{
     width: 68%;
     position: absolute;
     padding-left: 25px;
+    display: none;
 }
 
 .hero-subtitle{
@@ -253,7 +254,7 @@ body{
 .hero-image{
     width: 100%;
     /* max-width: 220px; */
-    height: 300px;
+    height: 190px;
     object-fit: cover;
     object-position: bottom;
     border-radius: 15px;
