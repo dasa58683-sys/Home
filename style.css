@@ -529,7 +529,7 @@ body{
     left: 0;
 
     width: 100%;
-    height: 70px;
+    height: 60px;
 
     background: rgba(255,255,255,.95);
 
@@ -563,20 +563,10 @@ body{
 
 .nav-icon{
     font-size: 22px;
-    color: #b23a48;
+    /* color: #b23a48; */
 }
 
-.bottom-nav span{
-    color: #b23a48;
-}
 
-/* .nav-item.active{
-    color: #B23A48;
-}
-
-.nav-item:hover{
-    color: #B23A48;
-} */
 
 
 
