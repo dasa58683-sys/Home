@@ -51,3 +51,22 @@ setInterval(() => {
     }, 500);
 
 }, 5000);
+
+const searchInput = document.getElementById("searchInput");
+const clearBtn = document.getElementById("clearBtn");
+
+searchInput.addEventListener("input", () => {
+
+    if (searchInput.value.trim() !== "") {
+        clearBtn.style.display = "block";
+    } else {
+        clearBtn.style.display = "none";
+    }
+
+});
+
+clearBtn.addEventListener("click", () => {
+    searchInput.value = "";
+    clearBtn.style.display = "none";
+    searchInput.focus();
+});
