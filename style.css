@@ -121,6 +121,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    position: relative;
 }
 
 .search-input{
@@ -132,20 +133,26 @@ body{
     padding-left: 48px;
     color: #666666;
     font-size: 15px;
-    /* margin-right: 20px; */
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .search i{
-    position: relative;
+    position: absolute;
     left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 20px;
     color: #666666;
+    
 }
 
 .remove i{
-    position: relative;
+    position: absolute;
     right: 60px;
     font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
     color: #666666;
     display: none;
 }
