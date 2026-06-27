@@ -266,7 +266,7 @@ body{
 .features-section{
     width: 100%;
    overflow: hidden;
-   display: flex;
+   display: none;
    justify-content: center;
 
 }
@@ -344,6 +344,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
 }
 
 .category-slider{
