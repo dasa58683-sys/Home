@@ -70,3 +70,34 @@ clearBtn.addEventListener("click", () => {
     clearBtn.style.display = "none";
     searchInput.focus();
 });
+
+// Set countdown to 24 hours from now
+let countdownDate = new Date().getTime() + (24 * 60 * 60 * 1000);
+
+let timer = setInterval(function () {
+
+    let now = new Date().getTime();
+    let distance = countdownDate - now;
+
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("hours").innerHTML =
+        hours.toString().padStart(2, "0");
+
+    document.getElementById("minutes").innerHTML =
+        minutes.toString().padStart(2, "0");
+
+    document.getElementById("seconds").innerHTML =
+        seconds.toString().padStart(2, "0");
+
+    if (distance < 0) {
+        clearInterval(timer);
+        document.querySelector(".deal-timer").innerHTML =
+            "Offer Expired";
+    }
+
+}, 1000);
