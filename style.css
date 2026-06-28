@@ -395,6 +395,7 @@ body{
     background: linear-gradient(135deg,#fff4f8,#f3e8ff);
     border-radius: 20px;
     padding: 20px 15px;
+    /* position: absolute; */
 }
 
 .recent-header h2{
@@ -424,6 +425,7 @@ body{
     box-shadow: 0 3px 10px rgba(0,0,0,0.08);
     flex-shrink: 0;
     margin-top: 20px;
+    /* position: absolute; */
 }
 
 .recent-card img{
@@ -631,6 +633,8 @@ body{
     color: #B23A48;
     font-size: 15px;
     font-weight: 500;
+    align-items: flex-start;
+    height: 38px;
 }
 
 .new-arrivals-slider{
