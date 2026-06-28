@@ -110,7 +110,7 @@ body{
 .count-badge{
     position: absolute;
     top: -8px;
-    right: -9px;
+    right: -10px;
     width: 18px;
     height: 18px;
     background: #c54b68;
@@ -126,7 +126,7 @@ body{
 .count-badge1{
     position: absolute;
     top: -8px;
-    right: -5px;
+    right: -8px;
     width: 18px;
     height: 18px;
     background: #c54b68;
