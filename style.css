@@ -103,6 +103,39 @@ body{
     border: none;
     background: transparent;
     font-size: 25px;
+    position: relative;
+}
+
+.count-badge{
+    position: absolute;
+    top: -8px;
+    right: -9px;
+    width: 18px;
+    height: 18px;
+    background: #c54b68;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.count-badge1{
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    width: 18px;
+    height: 18px;
+    background: #c54b68;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
 }
 
 .wishlist-btn i{
