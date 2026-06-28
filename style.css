@@ -607,25 +607,10 @@ body{
     margin-top: 10px;
 }
 
-/* .section-header{
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-/* .section-title{
-    width: 70%;
-    font-size: 24px;
-    font-weight: 500;
-    align-items: center;
-    justify-content: flex-start;
-    display: flex;
-} */
-
 .view-all{
     width: 30%;
     padding-right: 10px;
+    padding-top: 5px;
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
