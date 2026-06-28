@@ -178,7 +178,6 @@ body{
     color: #666666;
     font-size: 15px;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .search i{
@@ -510,6 +509,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 8px;
+    background: #ffffff;
 }
 
 /* product grid */
@@ -699,6 +699,7 @@ body{
 
 .trending-section{
     margin-top: 20px;
+    background: linear-gradient(135deg, #fff4f8,#f8ecff,#fffaf2);
     /* padding: 0 16px; */
 }
 
