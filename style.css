@@ -46,6 +46,14 @@ body{
     height: 50px;
     display: flex;
     background: #FAFAFA;
+    position: relative;
+}
+
+.nav-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 /* hamburger */
@@ -67,11 +75,13 @@ body{
 }
 
 .logo{
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .logo-img{
